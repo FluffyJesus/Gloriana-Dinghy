@@ -72,8 +72,7 @@ it, and the real cutter will stay hidden high above the ship.
 - **A dinghy may list heavily after you step from it straight onto another ship.** This
   is a vanilla Sailwind bug, not caused by this mod: when the player moves directly from
   one boat to another, the player's weight (about 160 kg) is not removed from the boat
-  they left. To avoid it, step into the water first and then climb aboard. If it
-  happens, hoisting the dinghy and launching it again fixes it.
+  they left. To avoid it, step into the water first and then climb aboard.
 - **Gloriana only.** The other Old Chronian ships are not affected.
 - Tested with Old Chronian asset bundles modified for crew colliders and with the
   original bundles.
