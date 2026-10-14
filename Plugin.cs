@@ -10,7 +10,7 @@ namespace GlorianaDinghy
     {
         public const string GUID = "glorianadinghy";
         public const string NAME = "Gloriana Dinghy";
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.0.1";
 
         internal static BepInEx.Logging.ManualLogSource Log;
         internal static Harmony H;
