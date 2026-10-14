@@ -196,20 +196,13 @@ namespace GlorianaDinghy
             Plugin.Log.LogInfo($"Coil on deck: y {y0:F3}, slope x {slopeX:F3}, z {slopeZ:F3}");
 
             go.AddComponent<BoxCollider>();
-            var outlineType = AccessTools.TypeByName("cakeslice.Outline");
-            Component ol = outlineType != null ? go.AddComponent(outlineType) : null;
-            if (ol is Behaviour ob) ob.enabled = false;
-            coil = go.AddComponent<HoistCoil>();
-            if (ol != null) Traverse.Create(coil).Field("outline").SetValue(ol);
+            coil = go.AddComponent<HoistCoil>();   // its Start() adds the Outline itself
         }
 
         private static void UpdateCoilText()
         {
             if (coil == null) return;
-            string t = IsStowed ? "launch dinghy" : "hoist dinghy";
-            if (t == coilText) return;
-            coilText = t;
-            Traverse.Create(coil).Field("lookText").SetValue(t);
+            coil.lookText = IsStowed ? "launch dinghy" : "hoist dinghy";
         }
 
         // in-game message if the game has NotificationUi, otherwise log only
