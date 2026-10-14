@@ -36,7 +36,7 @@ hatches and lashed down with ropes.
 ## Installation
 
 1. Install BepInEx, Dinghies and Old Chronian, and check that they work.
-2. Put `GlorianaDinghy.dll` into `BepInEx/plugins/GlorianaDinghy/`.
+2. Put `GlorianaDinghy.dll` into `BepInEx/plugins/`.
 3. Start the game.
 
 ## How to use
