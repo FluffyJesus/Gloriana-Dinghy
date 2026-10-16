@@ -1,9 +1,12 @@
+
 # Old Chronian Dinghy
 
 A small add-on for **Sailwind** that lets you carry the cutter from the **Dinghies** mod
 on board the **Gloriana** and **Aelasyl** from the **Old Chronian** ship pack.
 
 Instead of davits, the dinghy is stowed the period way: in the ship's waist, on spare timbers or planks and lashed down with ropes.
+
+<img width="2559" height="1423" alt="Screenshot_38" src="https://github.com/user-attachments/assets/2955eafd-387a-4501-b531-7e8ed2dcfee4" />
 
 ## Features
 
